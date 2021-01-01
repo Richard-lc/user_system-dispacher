@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="account_system:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/account_system_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="account_system/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="account_system" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="ValidateCode" />
+          <element id="library" level="application" name="commons-beanutils-1.9.4" />
+          <element id="library" level="application" name="commons-collections-3.2.2" />
+          <element id="library" level="application" name="commons-io-2.8.0" />
+          <element id="library" level="application" name="commons-logging-1.2" />
+          <element id="library" level="application" name="druid-1.1.5" />
+          <element id="library" level="application" name="jstl" />
+          <element id="library" level="application" name="lombok" />
+          <element id="library" level="application" name="mysql-connector-java-5.1.25-bin" />
+          <element id="library" level="application" name="standard" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
